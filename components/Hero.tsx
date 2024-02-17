@@ -13,7 +13,7 @@ export default function Hero() {
             "text-3xl lg:text-6xl font-bold underline"
           )}
         >
-          Trust World class Trust Trading Intellect Today
+          Trust World class ,Trust Trading Intellect Today
         </h1>
         <p className={cn(jost.className, "font-light leading-relaxed text-xl")}>
           Discover hedge fund-level insights designed for the individual
