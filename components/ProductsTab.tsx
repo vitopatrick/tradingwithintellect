@@ -6,16 +6,16 @@ import AllProducts from "./Products";
 
 export default function ProductsTab() {
   return (
-    <section>
+    <section className="my-[4rem] p-4">
       {/* header */}
       <div className="text-center space-y-3">
-        <h3 className={cn(syne.className, "text-3xl font-bold underline")}>
+        <h3 className={cn(syne.className, "text-2xl font-bold underline")}>
           Our Products
         </h3>
         <p
           className={cn(
             jost.className,
-            "font-light capitalize lg:text-xl lg:w-[80%] mx-auto"
+            "font-light capitalize  lg:w-[80%] mx-auto"
           )}
         >
           Our proprietary software has been designed, engineered, and tested to
@@ -24,7 +24,7 @@ export default function ProductsTab() {
       </div>
       <div className="my-4">
         <Tabs defaultValue="all_products">
-          <TabsList className={cn(syne.className, "w-full")}>
+          <TabsList className={cn(syne.className, "w-full my-6")}>
             <TabsTrigger value="all_products">All Products </TabsTrigger>
             <TabsTrigger value="AI">A.I</TabsTrigger>
             <TabsTrigger value="investment_tools">Investment Tools</TabsTrigger>

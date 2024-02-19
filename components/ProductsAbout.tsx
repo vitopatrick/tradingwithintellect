@@ -31,19 +31,11 @@ export default function ProductsAbout({
           >
             {title}
           </h2>
-          <h3
-            className={cn(
-              syne.className,
-              "font-bold text-2xl lg:text-4xl capitalize"
-            )}
-          >
+          <h3 className={cn(syne.className, "font-bold text-2xl  capitalize")}>
             {subtitle}
           </h3>
           <p className={cn(jost.className, "font-light")}>{about}</p>
-          <Button
-            variant={"link"}
-            className={cn(syne.className, "font-bold text-lg")}
-          >
+          <Button variant={"link"} className={cn(syne.className, "font-bold")}>
             <Link href="/products">Learn More</Link>
           </Button>
         </div>

@@ -21,29 +21,28 @@ export default function AllProducts({ category }: IProducts) {
                 <img src={product.image} alt={product.title} />
               </div>
               <div className="p-3 space-y-3">
-                <h2
-                  className={cn(
-                    syne.className,
-                    "font-bold text-xl md:text-2xl"
-                  )}
-                >
+                <h2 className={cn(syne.className, "font-bold")}>
                   {product.title}
                 </h2>
-                <p
-                  className={cn(
-                    jost.className,
-                    "font-light md:text-lg leading-loose line-clamp-2"
-                  )}
-                >
+                <p className={cn(jost.className, "font-light line-clamp-2")}>
                   {product.about}
                 </p>
-                <Button
-                  asChild
-                  variant={"ghost"}
-                  className={cn(syne.className, "font-bold")}
-                >
-                  <Link href={"/login"}>Visit Website</Link>
-                </Button>
+                <div className="space-x-3">
+                  <Button
+                    asChild
+                    variant={"default"}
+                    className={cn(syne.className, "font-bold")}
+                  >
+                    <Link href={"#"}>Learn More</Link>
+                  </Button>
+                  <Button
+                    asChild
+                    variant={"ghost"}
+                    className={cn(syne.className, "font-bold")}
+                  >
+                    <Link href={"/login"}>Visit Website</Link>
+                  </Button>
+                </div>
               </div>
             </div>
           ))
@@ -54,29 +53,28 @@ export default function AllProducts({ category }: IProducts) {
                 <img src={product.image} alt={product.title} />
               </div>
               <div className="p-3 space-y-3">
-                <h2
-                  className={cn(
-                    syne.className,
-                    "font-bold text-xl md:text-2xl"
-                  )}
-                >
+                <h2 className={cn(syne.className, "font-bold ")}>
                   {product.title}
                 </h2>
-                <p
-                  className={cn(
-                    jost.className,
-                    "font-light md:text-lg leading-loose line-clamp-2"
-                  )}
-                >
+                <p className={cn(jost.className, "font-light  line-clamp-2")}>
                   {product.about}
                 </p>
-                <Button
-                  asChild
-                  variant={"link"}
-                  className={cn(syne.className, "font-bold")}
-                >
-                  <Link href={"/login"}>Visit Website</Link>
-                </Button>
+                <div className="space-x-3">
+                  <Button
+                    asChild
+                    variant={"default"}
+                    className={cn(syne.className, "font-bold")}
+                  >
+                    <Link href={"#"}>Learn More</Link>
+                  </Button>
+                  <Button
+                    asChild
+                    variant={"ghost"}
+                    className={cn(syne.className, "font-bold")}
+                  >
+                    <Link href={"/login"}>Visit Website</Link>
+                  </Button>
+                </div>
               </div>
             </div>
           ))}
