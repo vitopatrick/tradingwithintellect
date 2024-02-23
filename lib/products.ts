@@ -7,6 +7,7 @@ export default [
     category: "AI",
     image:
       "https://tradesmith.com/wp-content/uploads/2023/11/eCommerce-Product-30.png",
+    link: "/predictive-alpha",
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ export default [
     category: "AI",
     image:
       "https://tradesmith.com/wp-content/uploads/2023/11/eCommerce-Product-31.png",
+    link: "/predictive-alpha",
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ export default [
     category: "AI",
     image:
       "https://tradesmith.com/wp-content/uploads/2023/11/eCommerce-Product-32.png",
+    link: "/predictive-alpha",
   },
   {
     id: 4,
@@ -34,6 +37,7 @@ export default [
     category: "investment_tools",
     image:
       "https://tradesmith.com/wp-content/uploads/2023/10/eCommerce-Product-1.png",
+    link: "/tools",
   },
   {
     id: 5,
@@ -43,6 +47,7 @@ export default [
     category: "investment_tools",
     image:
       "https://tradesmith.com/wp-content/uploads/2022/10/eCommerce-Product.png",
+    link: "/tools",
   },
   {
     id: 6,
@@ -52,6 +57,7 @@ export default [
     category: "investment_tools",
     image:
       "https://tradesmith.com/wp-content/uploads/2023/10/eCommerce-Product-2.png",
+    link: "/tools",
   },
   {
     id: 7,
@@ -61,6 +67,7 @@ export default [
     category: "investment_tools",
     image:
       "https://tradesmith.com/wp-content/uploads/2023/11/eCommerce-Product-26.png",
+    link: "/tools",
   },
   {
     id: 8,
@@ -70,6 +77,7 @@ export default [
     category: "trading_income",
     image:
       "https://tradesmith.com/wp-content/uploads/2023/11/eCommerce-Product-37.png",
+    link: "/trading",
   },
   {
     id: 9,
@@ -79,6 +87,7 @@ export default [
     category: "trading_income",
     image:
       "https://tradesmith.com/wp-content/uploads/2023/11/eCommerce-Product-38.png",
+    link: "/trading",
   },
   {
     id: 10,
@@ -88,6 +97,7 @@ export default [
     category: "trading_income",
     image:
       "https://tradesmith.com/wp-content/uploads/2023/11/eCommerce-Product-27.png",
+    link: "/trading",
   },
   {
     id: 11,
@@ -97,6 +107,7 @@ export default [
     category: "trading_income",
     image:
       "https://tradesmith.com/wp-content/uploads/2023/11/eCommerce-Product-25.png",
+    link: "/trading",
   },
   {
     id: 12,
@@ -106,6 +117,7 @@ export default [
     category: "trading_income",
     image:
       "https://tradesmith.com/wp-content/uploads/2023/11/eCommerce-Product-24.png",
+    link: "/trading",
   },
   {
     id: 13,
@@ -115,6 +127,7 @@ export default [
     category: "trading_income",
     image:
       "https://tradesmith.com/wp-content/uploads/2023/07/eCommerce-Product-3.png",
+    link: "/trading",
   },
   {
     id: 14,
@@ -124,5 +137,6 @@ export default [
     category: "quantum",
     image:
       "https://tradesmith.com/wp-content/uploads/2023/09/eCommerce-Product-4.png",
+    link: "/quantum",
   },
 ];

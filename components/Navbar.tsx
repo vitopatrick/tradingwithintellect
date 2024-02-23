@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
+import { Button } from "./ui/button";
 
 const links = [
   {
@@ -34,7 +35,7 @@ export default function Navbar() {
               TradingIntellect
             </Link>
           </div>
-          <div className="hidden lg:flex">
+          <div className="hidden lg:flex items-center gap-4">
             {links.map((link) => (
               <Link
                 href={link.url}
@@ -47,7 +48,16 @@ export default function Navbar() {
                 {link.title}
               </Link>
             ))}
+            <Button
+              asChild
+              variant={"secondary"}
+              size={"lg"}
+              className={cn(syne.className, "font-bold")}
+            >
+              <Link href="/login">Login</Link>
+            </Button>
           </div>
+
           <button
             className="block lg:hidden"
             onClick={() => setIsActive(!isActive)}
@@ -65,6 +75,16 @@ const MobileNav = ({ active }: IMobileNav) => {
   return (
     <div className={active ? "bg-blue-800 text-blue-50 lg:hidden" : "hidden"}>
       <div>
+        <Link
+          href="/login"
+          className={cn(
+            syne.className,
+            "hover:bg-blue-300 font-bold transition-all hover:text-blue-900 p-6 w-full inline-block"
+          )}
+        >
+          Login Trading Account
+        </Link>
+
         {links.map((link) => (
           <Link
             href={link.url}

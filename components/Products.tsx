@@ -33,7 +33,7 @@ export default function AllProducts({ category }: IProducts) {
                     variant={"default"}
                     className={cn(syne.className, "font-bold")}
                   >
-                    <Link href={"#"}>Learn More</Link>
+                    <Link href={product.link}>Learn More</Link>
                   </Button>
                   <Button
                     asChild
@@ -65,7 +65,7 @@ export default function AllProducts({ category }: IProducts) {
                     variant={"default"}
                     className={cn(syne.className, "font-bold")}
                   >
-                    <Link href={"#"}>Learn More</Link>
+                    <Link href={product.link}>Learn More</Link>
                   </Button>
                   <Button
                     asChild
