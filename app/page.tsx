@@ -1,6 +1,8 @@
 "use client";
 
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
+import Navbar from "@/components/Navbar";
 import ProductsAbout from "@/components/ProductsAbout";
 import JoinOurNewsletter from "@/components/join-our-newsletter";
 import OurProducts from "@/components/our-products";
@@ -10,6 +12,7 @@ export default function HomePage() {
   useChatSupport();
   return (
     <>
+      <Navbar />
       <Hero />
       <OurProducts />
       <ProductsAbout
@@ -34,6 +37,7 @@ export default function HomePage() {
         order={0}
       />
       <JoinOurNewsletter />
+      <Footer />
     </>
   );
 }
